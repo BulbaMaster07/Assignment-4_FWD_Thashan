@@ -13,15 +13,15 @@ function mirrorCorridor(){
         let K = Number(prompt("Enter a value for K:"));
         if (K >= 2 && K <= 9){
             let x = 0;
-            let palinstatus = 0;
+            let status = 0;
             for (; x <= 1000000; x++){
                 if (checkPalindrome(N + x) && (N + x) % K === 0){
                     alert(x);
-                    palinstatus = 1;
+                    status = 1;
                     break;
                 }
             }
-            if (palinstatus === 0){
+            if (status === 0){
                 alert("-1");
             }
         }
