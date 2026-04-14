@@ -18,7 +18,7 @@ The following README explains the approach and complexity to handle each questio
 6. Another function has been implemented to check if the number x doesn't contain 0, with similar construct as the "Sum" function above, just that it returns False, if it finds 0.
 
 **Complexity**:  
-Time Complexity: O(n)  
+Time Complexity: O(N log(N)) where N = R - L   
 Space Complexity: O(1)  
 
 **Problem 2: Roll-Seed Lock**  
@@ -45,7 +45,7 @@ Space Complexity: O(1)
 4. If found, status = 1 else 0. If 0, alert -1.
   
 **Complexity:**  
-Time Complexity: O(n)  
+Time Complexity: O(N log(N))  
 Space Complexity: O(1)  
 
 **Problem 4: Fare Calculator**  
